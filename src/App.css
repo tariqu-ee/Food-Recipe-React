@@ -1,0 +1,62 @@
+.App {
+  padding-top: 2em;
+
+  /* text-align: center; */
+  /* min-height: 100vh; */
+  /* background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%); */
+}
+
+.app-form {
+  min-height: 6vh;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.form-input {
+  width: 50%;
+  border: none;
+  outline: none;
+  background: lightgrey;
+  border-radius: 1em;
+  font-size: 1.5em;
+  padding-left: 0.5em;
+  text-align: center;
+}
+
+.form-button {
+  margin-left: 3em;
+  border: none;
+  background: transparent;
+  background-color: whitesmoke;
+  outline: 1px solid lightslategrey;
+  box-shadow: 0px 0px 0px 3px lightyellow;
+  width: 10%;
+  font-size: 1em;
+  cursor: pointer;
+  transition: all 100ms ease-in-out;
+}
+.form-button:hover {
+  box-shadow: 0px 0px 0px 3px lightyellow;
+  outline-offset: -5px;
+}
+.form-button:active {
+  background: lightslategray;
+}
+
+.main-recipe {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.recipe {
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 50%;
+  border: 2px solid lightcoral;
+  padding: 2em;
+}
