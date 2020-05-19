@@ -61,3 +61,7 @@
   padding: 2em;
   margin: 3em;
 }
+
+.recipe-img {
+  border-radius: 20px;
+}
